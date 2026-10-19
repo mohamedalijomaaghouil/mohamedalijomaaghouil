@@ -30,7 +30,7 @@ Un UR3e équipé d'une caméra **Intel RealSense** photographie une chaussure so
 - Localisation 3D de la pièce dans l'image de profondeur : séparation du sol, filtrage morphologique et des contours (**OpenCV**), position et orientation, projection en 3D (nœud **ROS 2** en Python)
 - Image de contrôle en temps réel (boîte englobante, distance, orientation) pour suivre l'inspection
 
-### [FOLLOW-ME — Robot suiveur de personne](https://github.com/mohamedalijomaaghouil/Autonomous-vision-based-person-following-robot-using-YOLO-and-Realsense)
+### [FOLLOW-ME — Robot suiveur de personne](https://github.com/mohamedalijomaaghouil/follow-me-person-following-robot)
 *Projet de 2e année, ENISo (2025)*
 
 - Détection de la personne par estimation de pose (**MediaPipe**) et mesure de distance avec une caméra **Intel RealSense D435i**

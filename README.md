@@ -24,10 +24,11 @@
 - Calibration validée sur un jeu de données indépendant : erreur moyenne **2,77 N → 0,69 N**
 
 ### [Inspection robotisée de défauts — UR3e, ROS 2](https://github.com/mohamedalijomaaghouil/defect-detection-robotics)
-*Projet en équipe de 3, semestres 7 et 8, SIGMA Clermont — projet européen REMAIN-SUDOE (2025 – 2026)*
+*Projet de 8 étudiants (j'étais dans la sous-équipe robotique de 3), semestres 7 et 8, SIGMA Clermont — projet européen REMAIN-SUDOE (2025 – 2026)*
 
 Un UR3e équipé d'une caméra **Intel RealSense** photographie une chaussure sous plusieurs angles pour en détecter les défauts. **Ma partie :**
 - Localisation 3D de la pièce dans l'image de profondeur : séparation du sol, filtrage morphologique et des contours (**OpenCV**), position et orientation, projection en 3D (nœud **ROS 2** en Python)
+- Testée sur un enregistrement ROS 2 (285 images couleur + profondeur synchronisées), en simulation Gazebo, puis sur la caméra réelle du UR3e
 - Image de contrôle en temps réel (boîte englobante, distance, orientation) pour suivre l'inspection
 
 ### [FOLLOW-ME — Robot suiveur de personne](https://github.com/mohamedalijomaaghouil/follow-me-person-following-robot)

@@ -38,6 +38,12 @@ Un UR3e équipé d'une caméra **Intel RealSense** photographie une chaussure so
 - Démarrage et arrêt du suivi par geste de la main, distance de sécurité d'environ 2 m
 - Commande des vitesses du robot par **Modbus TCP** · [Vidéo](https://youtu.be/bcdjbf4g2AU)
 
+### [Calibration de caméra et réalité augmentée en temps réel — OpenCV](https://github.com/mohamedalijomaaghouil/camera-calibration-ar)
+*Projet en binôme avec Mohamed Taher Guerbej, cours de vision par ordinateur (Pr Youcef Mezouar), SIGMA Clermont (2025)*
+
+- Calibration d'une webcam à partir de 20 images d'un damier 9×6 : **erreur de reprojection RMS de 0,25 px**
+- Estimation de pose du damier (**solvePnP**) et projection d'objets 3D (axes, cube, maison avec étiquette flottante) sur la vidéo en direct
+
 ---
 
 ## 🛠️ Compétences
